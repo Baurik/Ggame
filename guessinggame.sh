@@ -39,6 +39,7 @@ echo "Yes! Correct! The number of files in directory is:" $quant
 echo "You entered:" $usernum
 
 # end of program code.
+
 # West Kazakhstan, 2018
 
 
