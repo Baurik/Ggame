@@ -1,7 +1,7 @@
 # This program will ask the user to guess the number of files in the current directory
 
 # counting the number of files in the current directory
-quant=$(ls $PWD -1 | wc -l)
+quant=$(ls $PWD -l | grep "^-" |wc -l)
 
 # prompt user to guessing a number of files
 echo "Please guess the number of files in the current directory:" $PWD
